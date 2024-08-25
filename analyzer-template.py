@@ -58,8 +58,8 @@ def generateReport():
                     areas[area] = 1
                 else:
                     areas[area] += 1
-            except Exception as exc:
-                print(f"{url} generated an exception: {exc}")
+            except Exception as ex:
+                print(f"{future} generated an exception: {ex}")
     return areas
 
 def saveReport(report):
